@@ -131,6 +131,28 @@ public class CCuenta {
         this.tipoInteres = tipoInteres;
 
     }
+    
+    
+
+	public String getCuenta() {
+		return cuenta;
+	}
+
+
+	public void setCuenta(String cuenta) {
+		this.cuenta = cuenta;
+	}
+
+
+	public double getSaldo() {
+		return saldo;
+	}
+
+
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+
 
 	public static void main(String[] args) {
 		
